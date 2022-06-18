@@ -1,0 +1,17 @@
+h3{
+    font: size 25px !important;;
+
+}
+.btn-primary:hover{
+    background-color:cornflowerblue;
+
+}
+canvas{
+    animation-name:anyName;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+@keyframes anyName{
+    from{box-shadow:1px 1px 48px purple;}
+    to{box-shadow: 1px 1px 48px palevioletred;}     
+}
